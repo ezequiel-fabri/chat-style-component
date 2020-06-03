@@ -6,7 +6,7 @@ const useStyles = makeStyles(styles);
 
 const ChatHeader = () => {
   const classes = useStyles();
-  return <div className={classes.header}></div>;
+  return <div className={classes.header} />;
 };
 
 export default ChatHeader;
